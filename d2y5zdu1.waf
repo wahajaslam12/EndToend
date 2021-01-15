@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace Ado.Net_sql
+{
+    public partial class Customer : Form
+    {
+        public Customer()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                SqlConnection conn = new SqlConnection("Data Source = DESKTOP-B77S1AJ; initial catalog=OrderManagementSystemDataBase ;integrated security = true");
+                SqlCommand comm = new SqlCommand("Insert into Customer values('" + txtCustomername.Text + "','" + txtCustomercontact.Text + "','" + txtCustomerAddress.Text + "','" + txtcustomerEmail.Text + "','" + txtdateTimePicker1.Value + "')", conn);
+                comm.Connection = conn;
+                conn.Open();
+                comm.ExecuteNonQuery();
+                conn.Close();
+
+                MessageBox.Show("Cstomer Added Successfolly", "Hurraay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtCustomername.Text = txtCustomercontact.Text = txtCustomerAddress.Text = txtcustomerEmail.Text = "";
+                txtdateTimePicker1.Value = System.DateTime.Now;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+           //MessageBox.Show("Cstomer Added Successfolly", "Hurraay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           //txtCustomername.Text = txtCustomercontact.Text = txtCustomerAddress.Text = txtcustomerEmail.Text = "";
+           //txtdateTimePicker1.Value = System.DateTime.Now;
+        }
+    }
+}

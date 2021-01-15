@@ -1,0 +1,228 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace Ado.Net_sql
+{
+    public partial class Order : Form
+    {
+        public Order()
+        {
+            InitializeComponent();
+        }
+        private void UpdateListBox()
+        {
+            listBox1.Items.Clear();
+            var conn = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+            var comm = new SqlCommand("Select  * from Orders", conn);
+
+            conn.Open();
+
+            SqlDataReader reader = comm.ExecuteReader();
+
+            while (reader.Read())
+            {
+                listBox1.Items.Add(reader["Id"]);
+               
+            }
+
+            conn.Close();
+        }
+        private void Order_Load(object sender, EventArgs e)
+        {
+            SqlConnection connlist = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+            SqlCommand commlist = new SqlCommand("Select * from Orders", connlist);
+            connlist.Open();
+
+            SqlDataReader reader = commlist.ExecuteReader();
+
+            while (reader.Read())
+            {
+                listBox1.Items.Add(reader["Id"]);
+
+            }
+            connlist.Close();
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+                SqlCommand comm = new SqlCommand("Insert into Orders values('" +txtCustomerId.Text+ "','" + txtdateTimePickerOrder.Value +  "')", conn);
+                
+                conn.Open();
+                comm.ExecuteNonQuery();
+                conn.Close();
+                UpdateListBox();
+                MessageBox.Show("Order Added Successfully", "Hurraay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtCustomerId.Text= txtorderID.Text =  "";
+                txtdateTimePickerOrder.Value = System.DateTime.Now;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem != null)
+            {
+               
+
+                var conn = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+                var comm = new SqlCommand("Update Orders Set CustomerId ='" +txtCustomerId.Text + "', OrderDate  ='"+ txtdateTimePickerOrder.Value+"')", conn);
+
+                conn.Open();
+
+                comm.ExecuteNonQuery();
+
+                conn.Close();
+
+                UpdateListBox();
+
+                txtCustomerId.Text = txtorderID.Text =  "";
+                txtdateTimePickerOrder.Value = System.DateTime.Now;
+
+                MessageBox.Show("Orders Updated Successfully");
+                deletebutton.Enabled = false;
+                updatebutton.Enabled = false;
+                Addbutton.Enabled = false;
+            }
+        }
+
+        private void txtEnable_TextChanged(object sender, EventArgs e)
+        {
+            if ( txtEnable.Text == "123")
+            {
+                Enter_button.Enabled = true;
+            }
+        }
+
+        private void Enter_button_Click(object sender, EventArgs e)
+        {
+            if (txtEnable.Text == "123")
+            {
+              updatebutton.Enabled = true;
+              deletebutton.Enabled = true;
+              Addbutton.Enabled = false;
+               
+            }
+            else
+            {
+                MessageBox.Show("Sorry... WrongPassword", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+            Addbutton.Enabled = false;
+            SqlConnection conn1 = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+            SqlCommand comm1 = new SqlCommand("Select * from Orders where Id ='" + listBox1.SelectedItem + "'", conn1);
+
+             conn1.Open();
+            SqlDataReader reader = comm1.ExecuteReader();
+            while (reader.Read())
+            {
+                txtCustomerId.Text = reader["CustomerId"].ToString();
+                txtorderID.Text = reader["Id"].ToString();
+                txtdateTimePickerOrder.Value = Convert.ToDateTime(reader["OrderDate"]);
+
+            }
+            conn1.Close();
+
+
+            if (txtEnable.Text == "123")
+            {
+                updatebutton.Enabled = true;
+                deletebutton.Enabled = true;
+                Addbutton.Enabled = false;
+               
+
+            }
+            else
+            {
+                updatebutton.Enabled = false;
+                deletebutton.Enabled = false;
+                Addbutton.Enabled = false;
+                txtdateTimePickerOrder.Enabled = false;
+                txtCustomerId.Enabled = false;
+            } 
+            
+        }
+
+        private void resetbutton_Click(object sender, EventArgs e)
+        {
+            Addbutton.Enabled = true;
+            txtCustomerId.Enabled = true;
+            txtdateTimePickerOrder.Enabled = true;
+            txtCustomerId.Clear();
+            txtorderID.Clear();
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deletebutton_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you Sure!", "Confirm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                var conn = new SqlConnection("Data Source=DESKTOP-B77S1AJ;Initial Catalog=OrderManagementSystemDataBase;Integrated Security=True;");
+                var comm = new SqlCommand("Delete from Orders where Id = '" + listBox1.SelectedItem + "'", conn);
+                try
+                {
+                    conn.Open();
+
+                    comm.ExecuteNonQuery();
+
+                    conn.Close();
+
+                    UpdateListBox();
+
+                    txtorderID.Text = txtCustomerId.Text=  "";
+                    txtdateTimePickerOrder.Value = System.DateTime.Now;
+
+
+                    MessageBox.Show("Order Deleted Successfully");
+
+                    deletebutton.Enabled = false;
+                    updatebutton.Enabled = false;
+                    Addbutton.Enabled = false;
+                   
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+    }
+}

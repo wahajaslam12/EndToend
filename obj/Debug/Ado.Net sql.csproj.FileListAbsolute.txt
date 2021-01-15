@@ -1,0 +1,60 @@
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe.config
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.pdb
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Form1.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Properties.Resources.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csproj.GenerateResource.Cache
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.exe
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.pdb
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Customer.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order_Detail.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Product.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe.config
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.exe
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.pdb
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.pdb
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csprojResolveAssemblyReference.cache
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Customer.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Form1.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order_Detail.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Product.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Properties.Resources.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csproj.GenerateResource.Cache
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Report.resources
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.cache
+D:\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.compiled
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe.config
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.exe
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.pdb
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.pdb
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csprojResolveAssemblyReference.cache
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Customer.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Form1.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order_Detail.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Product.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Properties.Resources.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Report.resources
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csproj.GenerateResource.Cache
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.cache
+D:\ACOMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.compiled
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe.config
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.exe
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.pdb
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.exe
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\bin\Debug\Ado.Net sql.pdb
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csprojResolveAssemblyReference.cache
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Customer.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Form1.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Order_Detail.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Product.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Properties.Resources.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net_sql.Report.resources
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\Ado.Net sql.csproj.GenerateResource.Cache
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.cache
+D:\Start\COMP SCI LAB\NED CLASSES\ADO.NET   Connected Approach\Ado.Net sql\Ado.Net sql\obj\Debug\RdlCompile.compiled
